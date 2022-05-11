@@ -23,9 +23,9 @@ import net.guides.springboot.crud.model.Employee;
 import net.guides.springboot.crud.repository.EmployeeRepository;
 import net.guides.springboot.crud.service.SequenceGeneratorService;
 
-@CrossOrigin(origins = "https://ramyapg.github.io")
+@CrossOrigin(origins = "http://localhost:4200")
 @RestController
-@RequestMapping("/api/crap/")
+@RequestMapping("/api/v1")
 public class EmployeeController {
 	@Autowired
 	private EmployeeRepository employeeRepository;
